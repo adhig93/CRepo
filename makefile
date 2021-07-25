@@ -8,6 +8,5 @@ fact.o:fact.c
 	gcc -c fact.c
 reverse.o:reverse.c
 	gcc -c reverse.c
-
 clean:
 	rm -rf *.o
