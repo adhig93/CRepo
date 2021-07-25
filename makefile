@@ -1,5 +1,5 @@
 ABC.exe:main.o big3.o fact.o reverse.o 
-	gcc -o ABC.exe main.o big3.o fact.o 
+	gcc -o ABC.exe main.o big3.o fact.o reverse.o 
 main.o:main.c
 	gcc -c main.c
 biggest3.o:biggest3.c
